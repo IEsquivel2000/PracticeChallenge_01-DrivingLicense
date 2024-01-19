@@ -1,10 +1,25 @@
+alert("¡Bienvenida y bievenido a nuestro sitio web!");
 
-let numSecreto = Math.floor(Math.random() * 10) + 1; // Returns a random integer from 1 to 10:
-let numUser = prompt("Me indicas un numero por favor: ");
+let nombre = "Luna";
 
-console.log(numUser);
+let edad = 25;
 
-if (numUser == numSecreto){
-    alert("Numero correcto!");
+let numeroDeVentas = 50;
 
+let saldoDisponible = 1000;
+
+alert("¡Error! Completa todos los campos");
+
+let mensajeDeError = "¡Error! Completa todos los campos";
+
+alert(mensajeDeError);
+
+nombre = prompt("Introduce el nombre del usuario");
+
+edad = prompt("Introduce la edad del usuario");
+
+if (edad >= 18){
+
+    alert("¡Puedes obtener tu licencia de conducir!");
+    
 }
